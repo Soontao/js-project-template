@@ -1,6 +1,6 @@
-# Typescript Project Template
+# Javascript Project Template
 
-typescript project template
+javascript project template
 
 ## Setup
 

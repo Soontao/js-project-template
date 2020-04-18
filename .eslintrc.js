@@ -1,17 +1,21 @@
 module.exports = {
     root: true,
-    parser: '@typescript-eslint/parser',
     plugins: [
-        '@typescript-eslint',
     ],
+    parserOptions: {
+        "ecmaVersion": 6
+    },
     extends: [
         'eslint:recommended',
-        'plugin:@typescript-eslint/eslint-recommended',
-        'plugin:@typescript-eslint/recommended',
     ],
+    env: {
+        "node": true,
+        "es6": true,
+        "jest": true
+    },
     rules: {
         "semi": [2], // must end with semi
         "no-extra-semi": [0],
-        "@typescript-eslint/no-explicit-any": [0]
+        "no-var": [2]
     }
 };
