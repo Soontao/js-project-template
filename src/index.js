@@ -1,5 +1,4 @@
 
 const a = 1;
 
-
-module.exports = { a }
+module.exports = { a };
