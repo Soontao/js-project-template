@@ -24,7 +24,7 @@
     "commitlint": "^9.0.1",
     "eslint": "^7.6.0",
     "husky": "^4.2.3",
-    "jest": "^26.2.2",
+    "jest": "^26.3.0",
     "standard-version": "^8.0.0"
   },
   "jest": {
