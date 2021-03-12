@@ -1,9 +1,10 @@
 {
   "name": "template",
   "version": "0.0.1",
-  "main": "lib/index.js",
+  "type": "module",
+  "main": "src/index.mjs",
   "scripts": {
-    "test": "jest --detectOpenHandles",
+    "test": "node --experimental-vm-modules node_modules/.bin/jest --detectOpenHandles",
     "lint": "eslint src/**",
     "release": "standard-version --no-verify && git push --follow-tags origin main",
     "coverage": "npm test -- --coverage --no-cache"
@@ -13,7 +14,7 @@
     "url": "git+https://github.com/VirtualOctopus/VirtualOctopusJS.git"
   },
   "engines": {
-    "node": ">8"
+    "node": ">=14"
   },
   "dependencies": {
     "@newdash/newdash": "^5.17.1"
@@ -31,18 +32,15 @@
   "jest": {
     "testTimeout": 30000,
     "collectCoverageFrom": [
-      "src/**/*.js",
+      "src/**/*",
       "!**/node_modules/**"
     ],
-    "coveragePathIgnorePatterns": [
-      "node_modules/",
-      "src/bin"
-    ],
+    "transform": {},
     "testEnvironment": "node",
-    "testRegex": "/src/.*\\.test\\.js$",
+    "testRegex": "/test/.*\\.test\\.[m]?js$",
     "moduleFileExtensions": [
-      "ts",
       "js",
+      "mjs",
       "json"
     ]
   },

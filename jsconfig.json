@@ -3,10 +3,10 @@
         "charset": "UTF-8",
         "newLine": "lf",
         "target": "ES6",
-        "module": "CommonJS",
+        "module": "es2015",
         "outDir": "lib",
         "esModuleInterop": true,
-        "moduleResolution": "node",
+        "moduleResolution": "classic",
         "emitDecoratorMetadata": true,
         "experimentalDecorators": true,
         "declaration": true,
@@ -15,8 +15,7 @@
         ]
     },
     "include": [
-        "src",
-        "src/bin"
+        "src"
     ],
     "exclude": [
         "commitlint.config.js"

@@ -1,4 +1,4 @@
-const { a } = require("./index");
+import { a } from "../src/index";
 
 describe('Test Suite', () => {
 

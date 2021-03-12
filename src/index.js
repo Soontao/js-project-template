@@ -1,4 +1,2 @@
 
-const a = 1;
-
-module.exports = { a };
+export const a = 1;
