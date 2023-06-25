@@ -5,7 +5,7 @@
     "module": "es2015",
     "outDir": "lib",
     "esModuleInterop": true,
-    "moduleResolution": "classic",
+    "moduleResolution": "node",
     "emitDecoratorMetadata": true,
     "experimentalDecorators": true,
     "declaration": true,
