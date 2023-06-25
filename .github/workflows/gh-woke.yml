@@ -1,4 +1,4 @@
-name: detect non-inclusive
+name: non-inclusive
 
 on:
   push:
