@@ -21,13 +21,11 @@ jobs:
         with:
           node-version: ${{ matrix.node-version }}
 
-      - name: npm install, build, and test
-        run: |
-          npm install
-          npm run lint
-          npm run coverage
-        env:
-          CI: true
+      - run: npm ci
+
+      - run: npm run lint
+
+      - run: npm run coverage
 
       - name: upload coverage
         uses: codecov/codecov-action@v1
