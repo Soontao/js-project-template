@@ -1,23 +1,22 @@
 {
-    "compilerOptions": {
-        "charset": "UTF-8",
-        "newLine": "lf",
-        "target": "ES6",
-        "module": "es2015",
-        "outDir": "lib",
-        "esModuleInterop": true,
-        "moduleResolution": "classic",
-        "emitDecoratorMetadata": true,
-        "experimentalDecorators": true,
-        "declaration": true,
-        "lib": [
-            "ES6"
-        ]
-    },
-    "include": [
-        "src"
-    ],
-    "exclude": [
-        "commitlint.config.js"
+  "compilerOptions": {
+    "newLine": "lf",
+    "target": "ES2021",
+    "module": "es2015",
+    "outDir": "lib",
+    "esModuleInterop": true,
+    "moduleResolution": "classic",
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "declaration": true,
+    "lib": [
+      "ES6"
     ]
+  },
+  "include": [
+    "src"
+  ],
+  "exclude": [
+    "commitlint.config.js"
+  ]
 }
