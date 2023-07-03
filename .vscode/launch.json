@@ -5,9 +5,7 @@
       "type": "node",
       "name": "vscode-jest-tests",
       "request": "launch",
-      "runtimeArgs": [
-        "--experimental-vm-modules"
-      ],
+      "runtimeArgs": [],
       "args": [
         "--runInBand"
       ],
