@@ -5,7 +5,7 @@ import { a } from "../src/index.mjs";
 describe('Test Suite', () => {
 
   it('should equal to 1', () => {
-    equal(a, 1)
+    equal(a, 1);
   });
 
 });
