@@ -1,4 +1,5 @@
 import js from "@eslint/js";
+import globals from "globals";
 
 export default [
   js.configs.recommended,
@@ -9,5 +10,10 @@ export default [
       "no-var": "error",
     },
     ignores: ["node_modules", "lib"],
+    languageOptions: {
+      globals: {
+        ...globals.node,
+      },
+    },
   },
 ];
