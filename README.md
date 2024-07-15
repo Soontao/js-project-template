@@ -7,7 +7,6 @@
 * click `Use this template` to create new project 
 * update `package.json`, maintain your own package `name`, and other information like `author`.
 * add `LICENSE` if necessary (`npx license`)
-* maintain `CODECOV_TOKEN` to upload your coverage information
 * start your work
 
 ## Release
